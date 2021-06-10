@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Root",
+      "type": "ROOT",
+      "reference": "child_1"
+    },
+    {
+      "id": 2,
+      "parent": "child_1",
+      "name": "folder1 in root",
+      "type": "FOLDER",
+      "reference": "child_2"
+    },
+    {
+      "id": 3,
+      "parent": "child_2",
+      "name": "file1",
+      "type": "FILE"
+    },
+    {
+      "id": 4,
+      "parent": "child_1",
+      "name": "folder2 in root",
+      "type": "FOLDER",
+      "reference": "child_3"
+    },
+    {
+      "id": 8,
+      "parent": "child_3",
+      "name": "file1 in folder 2",
+      "type": "FILE"
+    },
+    {
+      "id": 5,
+      "parent": "child_3",
+      "name": "folder1 in folder2",
+      "type": "FOLDER",
+      "reference": "child_4"
+    },
+    {
+      "id": 6,
+      "parent": "child_4",
+      "name": "file1",
+      "type": "FILE"
+    },
+    {
+      "id": 7,
+      "parent": "child_4",
+      "name": "file2",
+      "type": "FILE"
+    }
+  ]
+}
